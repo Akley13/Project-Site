@@ -11,6 +11,21 @@
     text-align: justify;
 }
 
+#lado-a-lado{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgs{
+    width: 35%;
+    margin: auto;
+    border: solid black
+}
+
+.creditos-de-imagens{
+    text-align: center;
+}
+
 #autor{
     text-align: center;
 }
