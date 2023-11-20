@@ -12,18 +12,15 @@
 }
 
 #lado-a-lado{
-    display: flex;
-    justify-content: space-around;
+    display: flex; /* Imagem uma ao lado da outra*/
+    justify-content: space-around; /* espaços iguais entre as imagens e deixa no meio da tela */
 }
 
 .imgs{
     width: 35%;
+    height: 350px;
     margin: auto;
     border: solid black
-}
-
-.creditos-de-imagens{
-    text-align: center;
 }
 
 #autor{
