@@ -1,5 +1,10 @@
+header{
+    background-color: black;
+}
+
 #nome-ofc{
     text-align: center;
+    color: white;
 }
 
 #formato-texto{
@@ -17,12 +22,15 @@
 }
 
 .imgs{
-    width: 35%;
-    height: 350px;
     margin: auto;
     border: solid black
 }
 
 #autor{
     text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: black;
 }
