@@ -1,15 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(84, 5, 5);
+    background-color: rgb(255, 239, 239);
+}
+
 #marca{
     width: 100%;
 }
 
 #ul-navegacao{
-    text-align: center;
     list-style: none; /* tira a marcacao de listas */
     margin: 0;
     padding: 0;
     overflow:hidden;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(77, 1, 77);
     border: solid white 1px;
+    text-align: center;
 }
 
 .li-navegacao{
@@ -25,17 +31,17 @@
 .a-navegacao{
     display: block;
     color: rgb(255, 255, 255);
-    padding: 15px 80px;
+    padding: 10px 20px;
     text-align: center;
+    text-decoration: none;
 }
 
 .a-navegacao:hover{
-    background-color: rgb(84, 84, 84);
-    transform: translateX(20px) scale(1.3);
+    background-color: rgb(255, 0, 43);
 }
 
 #formato-texto{
-    padding: 15px 30px 15px 30px;
+    padding: 15px 50px 15px 50px;
 }
 
 .texto{
@@ -51,7 +57,15 @@
 .imgs{
     width: 100%;
     margin: auto;
-    border: solid black
+    border: solid  rgb(84, 5, 5);
+}
+
+.cor-creditos{
+    color: rgb(253, 0, 0);
+}
+
+.cor-creditos:hover{
+    color: blue;
 }
 
 .creditos-imagens{
