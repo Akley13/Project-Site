@@ -1,3 +1,7 @@
+#marca{
+    width: 100%;
+}
+
 #ul-navegacao{
     text-align: center;
     list-style: none; /* tira a marcacao de listas */
@@ -31,7 +35,7 @@
 }
 
 #formato-texto{
-    padding: 50px 30px 0px 30px;
+    padding: 15px 30px 0px 30px;
 }
 
 .texto{
