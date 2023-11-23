@@ -1,8 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
-    color: white;
-    background-color: #000000;
+  box-sizing: border-box;
+  height: 100vh;
+  color: white;
+  background-color: #000000;
+}
+
+h1{
+  font-size: 36px;
+}
+
+.titulo-destaque{
+  background: -webkit-linear-gradient( #687EFF, #A6F6FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p{
+  font-size: 24px;
+  font-weight: 400px;
+  line-height: 36px; /* 150% */
+}
+
+.apresentacao{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10%;
+  text-align: justify;
+}
+
+.apresentacao__conteudo{
+  width: 615px;
+  height: 482px;
 }
 
 #foto-akley{
-    width: 30%;
+  width: 350px;
+  height: 350px;
 }
