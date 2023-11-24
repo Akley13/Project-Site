@@ -10,6 +10,18 @@ body{
   background-color: #000000;
 }
 
+.apresentacao{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10%;
+  text-align: justify;
+}
+
+.apresentacao__conteudo{
+  width: 650px;
+}
+
 .apresentacao__conteudo__titulo{
   font-size: 36px;
 }
@@ -20,20 +32,8 @@ body{
   -webkit-text-fill-color: transparent;
 }
 
-p{
+.apresentacao__conteudo__paragrafo{
   font-size: 24px;
-}
-
-.apresentacao{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 10%;
-  text-align: justify;
-}
-
-.apresentacao__conteudo{
-  width: 615px;
 }
 
 #foto-akley{
