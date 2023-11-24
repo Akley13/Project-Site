@@ -27,7 +27,7 @@ body{
 }
 
 .titulo-destaque{
-  background: -webkit-linear-gradient( #687EFF, #A6F6FF);
+  background: -webkit-linear-gradient( #3854f7, #ffa6ce);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -36,7 +36,16 @@ body{
   font-size: 24px;
 }
 
+.ancoras{
+  padding: 2%;
+  background: -webkit-linear-gradient( #3854f7, #ffa6ce);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: none;
+  border-radius:10px;
+}
+
 #foto-akley{
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 340px;
 }
