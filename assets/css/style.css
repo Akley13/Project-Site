@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -13,17 +16,19 @@ body{
 .apresentacao{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 10%;
+  justify-content: space-around;
+  margin: 8%;
   text-align: justify;
 }
 
 .apresentacao__conteudo{
-  width: 650px;
+  width: 680px;
 }
 
 .apresentacao__conteudo__titulo{
   font-size: 36px;
+  font-family: 'Krona One', sans-serif;
+
 }
 
 .titulo-destaque{
@@ -34,18 +39,30 @@ body{
 
 .apresentacao__conteudo__paragrafo{
   font-size: 24px;
+  font-family: 'Montserrat', sans-serif;}
+
+.apresentacao__links{
+  display: flex;
+  justify-content: space-between;
 }
 
-.ancoras{
-  padding: 2%;
+.apresentacao__links__link {
+  width: 200px;
   background: -webkit-linear-gradient( #3854f7, #ffa6ce);
-  color: rgb(0, 0, 0);
-  font-weight: bold;
+  padding: 16px;
+  border-radius: 16px;
   text-decoration: none;
-  border-radius:10px;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
 }
 
 #foto-akley{
-  width: 320px;
-  height: 340px;
+  padding: 0.099%;
+  width: 400px;
+  height: 580px;
+  border-style: solid;
+  border-image: linear-gradient(to right, #3854f7, #ffa6ce) 1;
 }
