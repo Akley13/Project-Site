@@ -17,12 +17,12 @@ body{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin: 8%;
+  margin: 10% 10%;
   text-align: justify;
 }
 
 .apresentacao__conteudo{
-  width: 680px;
+  width: 670px;
 }
 
 .apresentacao__conteudo__titulo{
@@ -43,20 +43,30 @@ body{
 
 .apresentacao__links{
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.apresentacao__links__titulo{
+  font-family: 'Krona One', sans-serif;
+  font-size: 24px;
 }
 
 .apresentacao__links__link {
   width: 200px;
-  background: -webkit-linear-gradient( #3854f7, #ffa6ce);
-  padding: 16px;
+  padding-top: 21.5px;
+  padding: 21.5px 0;
   border-radius: 16px;
   text-decoration: none;
-  color: black;
+  color: white;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   text-align: center;
   font-size: 24px;
+  border-width: 2px;
+  border: solid;
+  border-image: linear-gradient(to right, #3854f7, #ffa6ce) 1;
 }
 
 #foto-akley{
@@ -65,4 +75,11 @@ body{
   height: 580px;
   border-style: solid;
   border-image: linear-gradient(to right, #3854f7, #ffa6ce) 1;
+}
+
+footer{
+  background-color: #3854f7;
+  color: black;
+  text-align: center;
+  width: 100%;
 }
