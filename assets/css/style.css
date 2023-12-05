@@ -64,7 +64,6 @@ body{
   font-weight: 600;
   text-align: center;
   font-size: 24px;
-  border-width: 2px;
   border: solid;
   border-image: linear-gradient(to right, #3854f7, #ffa6ce) 1;
 }
